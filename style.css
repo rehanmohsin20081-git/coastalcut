@@ -909,6 +909,48 @@ body {
     background-color: var(--primary-color);
 }
 
+.contact-social-top {
+    text-align: center;
+    margin-bottom: 4rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid rgba(216, 27, 96, 0.3);
+}
+
+.contact-social-top h3 {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.social-links-top {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.social-link-btn {
+    color: var(--light-text);
+    background: linear-gradient(135deg, var(--secondary-color), var(--accent-color));
+    text-decoration: none;
+    padding: 0.8rem 2rem;
+    border-radius: 8px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    transition: var(--transition);
+    display: inline-block;
+}
+
+.social-link-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(216, 27, 96, 0.4);
+}
+
 .contact-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
